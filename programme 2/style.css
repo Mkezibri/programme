@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+}
+h1{
+    padding: 50px;
+
+  text-align: center;
+}
+.card {
+    background: gray;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid black;
+    position: relative;
+    text-align:left;
+}
+.title {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: lightcoral;
+    padding: 5px 10px;
+    font-weight: bold;
+    border: 1px solid black;
+}
